@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+x = [0,1,3,5,7,9]
+y= [2,4,6,8,10]
+
+plt.plot(x, y, color='blue', linestyle='dashed', linewidth=3, markup='o',markerfacecolor='pink', markersize=11)
+
+plt.ylim(0,10)
+plt.xlim(0,10)
+
+plt.xlabel('Odd Numbers')
+plt.ylabel('Even Numbers')
+
+plt.title('Even and odd numbers!')
+
+plt.show()
